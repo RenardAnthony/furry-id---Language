@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "lg-cafe";
+	src: url("font/Louis_George_Cafe.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+#soonbox h1{
+	color: var(--color-gray3);
+    font-size: 3em;
+	font-family: "lg-cafe", Arial;
+}
+#soonbox h2{
+	color: var(--color-gray3);
+    font-size: 1.5em;
+	font-family: "lg-cafe", Arial;
+}
+#soonbox p{
+	color: var(--color-gray3);
+	font-family: "lg-cafe", Arial;
+}
+#soonbox img{
+	width: 25%;
+}
+#soonbox{
+    padding: 5em 0 10em 0;
+    text-align: center;
+}
+
+.blue p{
+	color: var(--color-lightblue);
+	font-size: 1.5em;
+}

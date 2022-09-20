@@ -1,0 +1,268 @@
+@font-face {
+	font-family: "lg-cafe";
+	src: url("font/Louis_George_Cafe.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background-color: var(--color-darkblue);
+	color: var(--color-black);
+}
+p{
+	margin: 0 0 2em 0;
+	color: var(--color-black);
+	font-family: "lg-cafe", Arial;
+}
+
+
+.text-input{
+	padding: 0.5em;
+	margin: 0.5em;
+	border:none;
+	border-bottom:1px solid var(--color-gray2);
+	background-color: var(--color-white);
+	color: var(--color-black);
+	text-align: left;
+	font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+textarea{
+	padding: 0.5em;
+	margin: 0.5em;
+    height: 200px;
+    text-align: left;
+	border:none;
+	border-bottom:1px solid var(--color-gray2);
+	background-color: var(--color-white);
+	color: var(--color-black);
+	text-align: left;
+	font-size: 1.2em;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    height: auto;
+    font-family: "lg-cafe", Arial;
+}
+
+#center{
+    display: table;
+	text-align: center;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    max-width: 80%;
+    width: 80%;
+    margin: 10em auto;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 10%);
+    background-color: var(--color-white);
+}
+#gauche{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: 0 1em;
+}
+#droit{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: 0 1em;
+}
+#center form{
+    display: flex;
+}
+.tuflex{
+    display: flex;
+}
+.age{
+    width: 50%;
+    text-align: center;
+}
+
+.forget_button {
+	font-family: "lg-cafe", Arial;
+    background: var(--color-gray1);
+    color: var(--color-gray3);
+    padding: 0.75em;
+    border-radius: var(--radius-1);
+    text-shadow:none;
+    transition-duration: 0.7s;
+    border: 1px solid var(--color-gray3);
+    width: 100%;
+    margin: 2em 0;
+}
+.forget_button:hover {
+	font-family: "lg-cafe", Arial;
+    background: var(--color-darkblue);
+    color: var(--color-white);
+    padding: 0.75em;
+    border-radius: var(--radius-1);
+    text-shadow:none;
+    transition-duration: 0.2s;
+    border: 1px solid var(--color-lightblue);
+    width: 100%;
+    cursor: pointer;
+}
+
+.sub_button {
+	font-family: "lg-cafe", Arial;
+    background: var(--color-gray1);
+    color: var(--color-gray3);
+    padding: 0.75em;
+    text-shadow:none;
+    transition-duration: 0.7s;
+    border: 1px solid var(--color-gray3);
+    width: 100%;
+    margin: 1em 0;
+    border-radius: var(--radius-1);
+}
+.sub_button:hover {
+	font-family: "lg-cafe", Arial;
+    background: var(--color-lightblue);
+    color: var(--color-white);
+    padding: 0.75em;
+    text-shadow:none;
+    transition-duration: 0.2s;
+    border: 1px solid var(--color-lightblue);
+    width: 100%;
+    cursor: pointer;
+}
+
+.choix-liste li{
+    list-style: none;
+    text-align: left;
+}
+.form-check img{
+    width: 20px;
+    margin: 0 0.5em;
+}
+
+
+
+.form-check{
+    position: relative;
+    margin: 0.5em;
+}
+.form-check input{
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    width: 100%;
+}
+.form-check label{
+    display: grid;
+    grid-template-columns: 2em 1fr;
+    grid-template-areas: "checkbox label";
+    gap: 0.7em;
+    text-align: left;
+}
+
+.form-check label::before,
+.form-check label::after{
+      
+    grid-area: checkbox;
+    content:'';
+    display: block;
+    margin-top: 0.1em;
+}
+
+.form-check label::before {
+    width: 100%;
+    height: 1em;
+    border-radius: var(--radius-2);
+    border: solid 1px var(--color-gray3);
+    transition: background-color 0.3s, border-color 0.3s;
+    
+}
+
+.form-check label::after{
+    position: relative;
+    left: 2px;
+    top: 2px;
+    width: calc(1em - 2px);
+    height: calc(1em - 2px);
+    border-radius: var(--radius-3);
+    background-color: var(--color-gray3);
+    transition: background-color 0.3s, transform 0.3s;
+}
+.form-check input:checked + label::before{
+    background-color: var(--color-lightblue);
+    border-color: var(--color-lightblue);
+}
+.form-check input:checked + label::after{
+    background-color: var(--color-white);
+    transform: translateX(1em);
+}
+
+
+#photo_profil_preview img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--radius-2);
+    border: 2px solid var(--color-gray2);
+    padding: 0.2em;
+}
+#photo_profil_preview{
+    margin: auto;
+}
+
+#liste_lien table {
+    width: 100%;
+}
+#liste_lien table p{
+    text-align: left;
+}
+
+select{
+    padding: 0.5em;
+    margin: 0.5em;
+    border: none;
+    border-bottom: 1px solid var(--color-gray2);
+    background-color: var(--color-white);
+    color: var(--color-black);
+    text-align: left;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+#selectchoix{
+    width: 100%;
+    margin: 0;
+}
+.close-p{
+    margin: 0;
+}
+#couleur, #couleur_des_yeux, #motif{
+    padding: 0.5em;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    text-align: left;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+#motif img{
+    width: 60px;
+    border: 2px solid var(--color-black);
+}
+#couleur td, #couleur_des_yeux td, #motif td{
+    text-align: center;
+}
+
+
+.input_form{
+	padding: 0.5em;
+	border:none;
+	border-bottom: 1px solid var(--color-gray2);
+	background-color: var(--color-white);
+	color: var(--color-black);
+	text-align: left;
+	font-size: 1.2em;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}

@@ -1,0 +1,196 @@
+@font-face {
+	font-family: "lg-cafe";
+	src: url("font/Louis_George_Cafe.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background-color: var(--color-darkblue);
+	color: var(--color-black);
+}
+p{
+	margin: 0 0 2em 0;
+	color: var(--color-black);
+	font-family: "lg-cafe", Arial;
+}
+
+
+
+.box_connect{
+	margin: 10% auto 10% auto;
+	width: 80%;
+}
+.text-input{
+	padding: 0.5em;
+	margin: 0.5em;
+	border:none;
+	border-bottom:1px solid var(--color-gray2);
+	width: 90%;
+	background-color: var(--color-white);
+	color: var(--color-black);
+	text-align: left;
+	font-size: 1.2em;
+  margin-bottom: 1rem;
+}
+
+#regroupement{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+table.ckeckbox__box_box, td.ckeckbox__box_box, tr.ckeckbox__box_box{
+	display: flex;
+	justify-content: left;
+	padding: 0.1em;
+}
+table.ckeckbox__box_box, td.ckeckbox__box_box, tr.ckeckbox__box_box{
+	display: flex;
+	justify-content: center;
+	padding: 0.1em;
+}
+input[type="checkbox"].checkbox_box {
+	display: none;
+}
+input[type="checkbox"].checkbox_box + label {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 3rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  padding:2px;
+  background-color: var(--color-gray2) ;
+  transition: all 0.5s ;
+}
+input[type="checkbox"].checkbox_box + label::before {
+  box-sizing: border-box;
+  display: block;
+  content: "";
+  height: calc(1.5rem - 4px);
+  width: calc(1.5rem - 4px);
+  border-radius: var(--radius-3);
+  background-color: var(--color-white);
+  transition: all 0.5s ;
+}
+input[type="checkbox"].checkbox_box:checked + label {
+  background-color: var(--color-darkblue);
+}
+input[type="checkbox"].checkbox_box:checked + label::before {
+  margin-left: 1.5rem ;
+}
+.nomargin{
+  padding: 0;
+}
+
+
+
+
+.sub_button {
+	font-family: "lg-cafe", Arial;
+  background: var(--color-gray1);
+  color: var(--color-black);
+  padding: 0.75em;
+  border-radius: var(--radius-2);
+  text-shadow:none;
+  transition-duration: 0.7s;
+  border: 1px solid var(--color-gray3);
+  width: 90%;
+}
+.sub_button:hover {
+	font-family: "lg-cafe", Arial;
+  background: var(--color-lightblue);
+  color: var(--color-white);
+  padding: 0.75em;
+  border-radius: 5px;
+  text-shadow:none;
+  transition-duration: 0.2s;
+  border: 1px solid var(--color-lightblue);
+  width: 100%;
+  cursor: pointer;
+}
+
+.other_button{
+  margin: 1em;
+  color: var(--color-gray3);
+}
+.other_button:hover{
+  color: var(--color-green);
+}
+.sub_button_reset {
+  font-family: "lg-cafe", Arial;
+  background: var(--color-gray1);
+  color: var(--color-gray3);
+  padding: 0.75em;
+  border-radius: var(--radius-2);
+  text-shadow:none;
+  transition-duration: 0.7s;
+  border: 1px solid var(--color-gray);
+  width: 100%;
+}
+.sub_button_reset:hover {
+  font-family: "lg-cafe", Arial;
+  background: var(--color-green);
+  color: var(--color-gray3);
+  padding: 0.75em;
+  border-radius: 5px;
+  text-shadow:none;
+  transition-duration: 0.2s;
+  border: 1px solid var(--color-green);
+  width: 100%;
+  cursor: pointer;
+}
+
+
+
+a.spacial_1 {
+	font-size: 1em;
+	color: var(--color-gray3);
+	text-decoration: none;
+	transition-duration: 0.7s;
+	font-family: "lg-cafe", Arial;
+  margin-bottom: 2em;
+}
+a:hover.spacial_1 {
+	font-size: 1em;
+	color: var(--color-red);
+	text-decoration: none;
+	transition-duration: 0.2s;
+  margin-bottom: 2em;
+}
+
+
+
+.short {
+	margin: 0 0 0.2em 0;
+	color: var(--color-white);
+	font-family: "lg-cafe", Arial;
+}
+#center{
+  display: table;
+	text-align: center;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  max-width: 60%;
+  width: 90%;
+  margin: 10em auto;
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 10%);
+  background-color: var(--color-white);
+}
+#image-connection{
+  display: table-cell;
+  width: 50%;
+  background: url(../img/theme/1.png);
+  background-size: cover;
+  height: 100%;
+}
+
+img{
+  vertical-align: middle;
+  border-style: none;
+  width: 25%;
+}
+#p_acroche{
+  color: var(--color-gray3);
+  font-size: 2em;
+}
