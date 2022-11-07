@@ -1,0 +1,178 @@
+body{
+    background-color: var(--color-white);
+}
+#__global_body__{
+    display: flex;
+}
+#gauche{
+    width: 20%;
+    margin: 0;
+    padding: 0 1em;
+}
+.titre{
+    border-bottom: 1px solid var(--color-darkblue);
+    padding-bottom: 0.5em;
+    font-weight: bold;
+    color: var(--color-verydark-blue);
+    font-size: 1em;
+}
+.titre2-noborder{
+    padding-top: 0.5em;
+    font-weight: bold;
+    color: var(--color-gray3);
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+.titre2{
+    border-top: 1px solid var(--color-gray3);
+    padding-top: 0.5em;
+    font-weight: bold;
+    color: var(--color-gray3);
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+#droit{
+    background-color: green;
+    width: 80%;
+}
+#gauche ul{
+    padding-left: 0.5em;
+}
+#gauche em{
+    font-size: 0.8em;
+    color: var(--color-gray3);
+    font-style: normal;
+}
+#gauche label{
+    transition: 0.7s;
+}
+#gauche label:hover{
+    color: var(--color-lightblue);
+    transition: 0.2s;
+}
+
+.color_tab{
+    width: 100%;
+}
+.color_tab tr td{
+    height: 20px;
+    text-align: center;
+}
+.color_tab tr td img{
+    width: 50px;
+}
+
+
+
+
+#droit{
+    background-color: var(--color-gray1);
+}
+#droit #tocentre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+
+
+
+
+#list_fur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#list_fur .name{
+    margin: 0.5em 1em 0.5em 1em;
+    font-weight: bold;
+}
+#list_fur .especise{
+    color: var(--color-gray3);
+    margin: 0.5em 1em 1em 1em;
+}
+#furry_unique{
+    width: 200px;
+    height: auto;
+    margin: 1em;
+    padding: 1em;
+    border-radius: var(--radius-1);
+    transition: 0.8s;
+}
+#furry_unique:hover{
+    background-color: var(--color-gray2);
+    transition: 0.2s;
+}
+#list_fur .img_avatar{
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    object-fit: contain;
+    border-radius: var(--radius-1);
+    object-fit: cover;
+}
+#list_fur .img_suite{
+    background-color: var(--color-gray1);
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    object-fit: contain;
+    border-radius: var(--radius-1);
+}
+
+#pp_choix{
+    background-color: var(--color-gray2);
+    border-radius: var(--radius-2);
+    width: 100px;
+    text-align: center;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    transition: 0.8s;
+}
+#pp_choix:hover{
+    background-color: var(--color-gray3);
+    transition: 0.2s;
+}
+#pp_choix img{
+    width: 20px;
+}
+
+
+input[type="checkbox"].checkbox_box {
+	display: none;
+}
+input[type="checkbox"].checkbox_box + label {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 2rem;
+  height: 1rem;
+  border-radius: 10rem;
+  padding:2px;
+  background-color: var(--color-gray2) ;
+  transition: all 0.5s ;
+}
+input[type="checkbox"].checkbox_box + label::before {
+  box-sizing: border-box;
+  display: block;
+  content: "";
+  height: calc(1rem - 4px);
+  width: calc(1rem - 4px);
+  border-radius: var(--radius-3);
+  background-color: var(--color-white);
+  transition: all 0.5s ;
+}
+input[type="checkbox"].checkbox_box:checked + label {
+  background-color: var(--color-lightblue);
+}
+input[type="checkbox"].checkbox_box:checked + label::before {
+  margin-left: 1rem ;
+}
