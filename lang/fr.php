@@ -132,7 +132,7 @@ $lang_female = "Femelle";
 $lang_holder_space = "Espèce (ex : Polar Fox)";
 $lang_url_fursona = "URL : Photo du fursona";
 $lang_url_refshit = "URL : Refsheet";
-$lang_principal_color = "Couleurs principales";
+$lang_principal_color = "Couleurs";
 $lang_eye_color = "Couleurs des yeux";
 $lang_fourur_tile = "Motifs fourrure";
 $lang_desc_autre = "Description autre";
@@ -147,7 +147,7 @@ $lang_url_touchzone = "URL : Touche zone";
 $lang_fursuit_padding = "Padding";
 $lang_fursuit_fursuitstyle = "Style de suite";
 $lang_fursuit_plantigrade = "Plantigrade";
-$lang_fursuit_digidrade = "Digidrade";
+$lang_fursuit_digidrade = "Digigrade";
 $lang_fursuit_toony = "Toony";
 $lang_fursuit_realist = "Realist";
 $lang_fursuit_jaw = "Machoire";
@@ -156,6 +156,8 @@ $lang_fursuit_fix = "Fix";
 $lang_fursuit_amovible = "Amovible";
 $lang_fursuit_eye_type = "Plant";
 $lang_fursuit_eye_followMe = "Follow-Me";
+$lang_fursuit_eye_realist = "Réalist";
+$lang_fursuit_eye_led = "LED";
 $lang_fursuit_size = "Taille en mètre ( ex : 1.82 )";
 $lang_fursuit_hug_no = "No hug";
 $lang_fursuit_hug_yes = "Ok hug";
@@ -289,16 +291,11 @@ $lang_presentation_projet="Présentation du projet";
 $lang_historic="Historique";
 $lang_sommaire="Sommaire";
 $lang_hiding="masquer";
-$lang_desc_vault="Vault est la mascote de ce site web.";
-$lang_vault_wolf="Loup";
+$lang_desc_vault="Snout est la mascote de ce site web.";
+$lang_vault_wolf="Loup/Linx";
 $lang_especeunique="Espèce";
 $lang_creat="Crée";
 $lang_autor="Auteur";
-
-
-$lang_espece_fox="Renard";
-$lang_espece_loup="Loup";
-
 
 
 ?>
