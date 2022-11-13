@@ -51,6 +51,7 @@ $lang_english = "Anglais";
 $lang_italian = "Italien";
 $lang_portuguese = "Portugais";
 $lang_russian = "Russe";
+$lang_hongrois = "Hongrois";
 
 
 
@@ -131,7 +132,7 @@ $lang_female = "Femelle";
 $lang_holder_space = "Espèce (ex : Polar Fox)";
 $lang_url_fursona = "URL : Photo du fursona";
 $lang_url_refshit = "URL : Refsheet";
-$lang_principal_color = "Couleurs principales";
+$lang_principal_color = "Couleurs";
 $lang_eye_color = "Couleurs des yeux";
 $lang_fourur_tile = "Motifs fourrure";
 $lang_desc_autre = "Description autre";
@@ -146,7 +147,7 @@ $lang_url_touchzone = "URL : Touche zone";
 $lang_fursuit_padding = "Padding";
 $lang_fursuit_fursuitstyle = "Style de suite";
 $lang_fursuit_plantigrade = "Plantigrade";
-$lang_fursuit_digidrade = "Digidrade";
+$lang_fursuit_digidrade = "Digigrade";
 $lang_fursuit_toony = "Toony";
 $lang_fursuit_realist = "Realist";
 $lang_fursuit_jaw = "Machoire";
@@ -155,6 +156,8 @@ $lang_fursuit_fix = "Fix";
 $lang_fursuit_amovible = "Amovible";
 $lang_fursuit_eye_type = "Plant";
 $lang_fursuit_eye_followMe = "Follow-Me";
+$lang_fursuit_eye_realist = "Réalist";
+$lang_fursuit_eye_led = "LED";
 $lang_fursuit_size = "Taille en mètre ( ex : 1.82 )";
 $lang_fursuit_hug_no = "No hug";
 $lang_fursuit_hug_yes = "Ok hug";
@@ -221,71 +224,79 @@ $lang_desjainscrit = "Déjà inscrit ? c'est par ici !";
 
 //about
 $lang_app_1 = "<p>
-
-    En 2017, alors que je suis à une convention manga, je croise des fursuits pour la première fois de ma vie.
-    Bien trop timide, je n'ose pas les approcher. En rentrant chez moi le soir, une boule au ventre. Je n'ai qu'une envie, les contacter et dire que je les ai trouvés magnifiques et que je veux rejoindre la comu'.
-    Problème, je n'ai pas leurs noms, et il m'est impossible de les retrouver autrement.
+    En 2017, alors que je suis sur à une convention manga je croise des fursuit pour la première fois de ma vie.
+    Bien trop timide je n'ose pas les approcher et en rentrant chez moi le soir une boule autre. Je n'ai qu'une envie,
+    les contacter et leur dire que je les ai trouvé magnifique et que je veut rejoindre la comu.
+    Problème, je n'ai pas leur nom, et il est impossible de les retrouver autrement.
 </p>
 <p>
-    Furry-Id est alors né. Fin 2017, le projet ce crée, mais sera vite abandonné après quelques mois de travail, à cause de la difficulté que ça représentait.
-    Persuader qu'un tel projet existe déjà, mais que je ne l'ai pas encore trouver, les années passent & en 2019, je quitte le fandom et le projet s'en va alors traîner au fond d'un vieux disque dur.
+    Furry-Id est né. Depuis fin 2017 le projet existé mais sera abandonné après quelques mois de travail à cause de la difficulté que ça représente.
+    Persuader qu'un tel projet existe déjà mais que je ne les pas encore trouver, les années passent en 2019 je quite le fandom et le projet traine
+    au fond d'un vieux disc dur.
 </p>
 <p>
-    Ce n'est que fin 2021, avec mon retour dans le fandom, que je parle de ce projet à quelques personnes.
-    Ces dernières sont emballées, et trouvent le projet incroyable, me poussant à le finir. En janvier, une mise à nouveau du backend ;
-    Février, le frontend et les logos;
-    Mars et avril, la charte graphique ;
-    Mai, juin, juillet l'ajout des fursonas, des profils, et plein d'optimisations.
+    Ce n'est que fin 2021 avec mon retour dans le fandom que je parle de ce projet à quelques personnes.
+    Tout le monde est emballé, et trouve le projet incroyable et me pousse à le finir. En janvier une refait complet backend;
+    Février, le frontend, les logos;
+    Mars et avril, la charte graphique;
+    Mai, juin, juillet l'ajout des fursona, des profils, est plein d'optimisation.
 </p>
 <p>
-    Août, le site ouvre pour mes deux, trois potes... Ça y est, la Pre-Alpha commence, on crée quelques comptes pour les tests et l'on fait une grande liste de toutes les fonctionnalités que l'on souhaite. Mais le problème...
-    Je suis le seul \"dev\" et mes compétences actuelles ne me permet pas de tout faire. Il est aussi très dur de trouver du monde de confiance pour m'aider.
-    Je ne veux pas trop en parler, pour ne pas faire fuiter l'idée du site. Néanmoins, si un autre projet de la sorte existe et que je n'en ai pas eu vent de son existence, alors ce dernier ne doit pas être si gros que ça.
-    Il faut alors que le projet sorte au publique, en Alpha pour trouver du monde intéressé afin qu'ils veuillent mettre la main à la pâte.
+    Aout, le site ouvre pour mes deux, trois pots... Ça y est, le pré alpha commence, on crée quelque compte pour les tests, on fait une grande liste;
+    de tous les fonctionnalités qu'on veut et le problème...
+    Je suis le seul \"dev\" et mes compertances ne me permet pas de tout faire. Et très dure de trouver du monde de confiance pour m'aider.
+    Je ne veux pas trop en parler pour pas faire fuiter l'idée du site mais de toute façon, même si ça existe, je ne connais pas son existence alors ça doit pas être si gros que ça.
+    Il faut que le projet sorte au public en alpha pour trouver du monde intéresser par le projet qui veuillent mettre la main à la pâte.
 </p>
 <p>
-    Octobre 2022, ouverture en Alpha 0.1. Sur Instagram; tout le monde trouve le projet incroyable et me booste plus que jamais. Nous sommes aujourd'hui le 1er Novembre 2022, on est 13 inscrits sur le site, 21 fursonas enregistrés, et 39 personnes suivent le projet sur Instagram. J'espère que l'on fera un bon chemin avec vous. 
+    Octobre 2022, ouverture en alpha 0.1, sur instagram tout le monde trouve le projet incroyable et me booste plus que jamais. On est aujourd'hui le 1er Novembre 2022, on est 13 inscrits sur le site, 21 fursona enregistrer, et 39 personnes suive le projet sur instagram. J'espère qu'on fera un bon chemin avec vous. 
 </p>";
 $lang_app_2="
 <p>
-    <em class=\"import1\">Furry-id.com</em> n'est pas une énième furmap.
+    <em class=\"import1\">Furry-id.com</em> n'est pas une énieme furmap.
 </p>
 <p>
-    L'idée de Furry-id.com est de créer une grande base de données <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Fursuit\">Furrys/Fursuits</a> afin de proposer un programme de reconnaissance de fursonas/fursuits.
+    L'idée de Furry-id.com est de créé une grande base de données <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Fursuit\">furry/fursuit</a> enfin de proposé un program de reconnaissance de fursona/fursuit.
 </p>
 <p>
-    Vous avez peut-être déjà vécu cette expérience très embêtante : Vous êtes en convention, vous trouvez une fursuit trop jolie, mais tout comme moi, vous n'osez pas aller la voir et/ou vous avez pris une photo, mais vous n'avez pas son compte <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Instagram\">Instagram</a> pour le tag ou le recontacter.
-    Grâce à furry-id.com, vous pouvez avec une simple photo ou un questionnaire, retrouver la ou les fursuits que vous avez croisé et tous les liens de ces réseaux sociaux.
-    Vous aurez aussi leurs <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Blueprint\">références</a>,
-    le <a class=\"urlf\" href=\"https://fursuiters.fandom.com/wiki/Fursuit_Maker\">fursuit maker</a>, les autres <a class=\"urlf\" href=\"https://fr.wikifur.com/wiki/Fursona\">fursonas</a> du propriétaire, une \"touch-zone\", des informations sur la personne, ces furmeet, son caractère, son histoire et bien d'autres !
-    Tout cela s'applique aussi aux dessins ! Si vous veniez à trouver un jolie dessin de deux furrys sur une plage, avec une simple description des personnages, vous serez capable de retrouver les fursonas & leurs propriétaires.
+    Vous avez peut-être déjà vécu cette expérience très embêtante ; vous êtes en convention, vous trouvez une fursuit trop jolie mais vous n'osez pas aller la voir,
+    et/ou vous avez pris une photo mais vous avez pas son compte <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Instagram\">Instagram</a> pour le tag ou recontactez. Grâce à furry-id.com vous pouvez avec une simple photo
+    ou un questionnaire, retrouver qu'elle fursuit vous avez croisé et tout les lien de ces réseaux sociaux. Vous aurez aussi leur <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Blueprint\">referance</a>,
+    le <a class=\"urlf\" href=\"https://fursuiters.fandom.com/wiki/Fursuit_Maker\">fursuit maker</a>, les autre <a class=\"urlf\" href=\"https://fr.wikifur.com/wiki/Fursona\">fursona</a> du propriétaire, une touchezone,
+    des informations sur la personne, sa furmeat, son carratère, son histoire
+    et bien d'autre. Ca s'applique aussi au dessin. Vous trouvez un jolie dessin de deux furrys sur une plage. Avec une simple description
+    des personnages vous pourai trouver les fursona et leur propriétaire.
 </p>
 <p>
-    Mais Furry-id.com, c'est plus que ça. C'est aussi une plateforme de rencontre sur laquelle les <a class=\"urlf\" href=\"https://highwaytotail.com/associations\">associations furry</a> du monde entier pourrons partager les <a class=\"urlf\" href=\"https://highwaytotail.com/furmeets\">meet</a>, <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Convention_d%27anime\">Convention manga</a> ou furry.
-    Tout comme les associations furry local vous seront proposés et la possibilité de s'abonner gratuitement à une <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Lettre_d%27information\">news letter</a>, qui vous prévient de toutes les conventions furry dans un rayon paramétrable autour de cher vous. 
-    Envie d'aller à la <a class=\"urlf\" href=\"https://www.japan-touch.com/haru/\">Japan Touch</a> de Lyon mais vous ne savez pas qui sera présent ? Le bon réflexe, furry-id.com. Les réponses sont ici ! 
+    Mais Furry-id.com c'est plus que ça, c'est aussi une plateforme de rencontre sur laquelle les
+    <a class=\"urlf\" href=\"https://highwaytotail.com/associations\">associations furry</a> du monde entier pourrons partager les <a class=\"urlf\" href=\"https://highwaytotail.com/furmeets\">meet</a>, <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Convention_d%27anime\">Convention manga</a> ou spécial furry.
+    Les associations furry local vous seront proposés et la possibilité de s'abonner gratuitement à une <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Lettre_d%27information\">news letter</a> qui vous préviendra de tout les conventions
+    furry dans un rayon paramétrable autours de cher vous. Envie d'aller à la <a class=\"urlf\" href=\"https://www.japan-touch.com/haru/\">Japan Touch haru</a> de Lyon mais vous savez pas trop qui y sera ? le bon reflex, furry-id.com aura la réponces.
 </p>
 <p>
-    Furry-id.com sera <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Données_ouvertes\">open data</a> ssur certains points qui seront clairement identifiable. Au final, grâce à Furry-id, finis de tenir votre profil à jours sur 200 sites différents. Grâce à votre Furr Id Code unique, toutes vos informations seront mise à jour automatiquement avec les sites partenaire (pseudo, pdp, lien sociaux, position sur <a class=\"urlf\" href=\"http://www.furry-id.com/furmap\">furmap</a>) activable, ou non dans vos profils.
+    Furry-id.com sera <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Données_ouvertes\">open data</a> sur certain points qui seron clairement identifiable. A therme, grace à furry-id, plus besoin de tenir votre profil a jours sur 200 site different.
+    Grâce à votre furidCode unique, tout vos information seron mise à jours automatiquement avec les site partenaire (pseudo, pdp, lien socieaux, position sur <a class=\"urlf\" href=\"http://www.furry-id.com/furmap\">furmap</a>) biensur activable ou non dans vos profil.
 </p>
 <p>
-    Enfin, Furry id, enfin, c'est aussi une mignonne petite carte physique <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Radio-identification\">NFC/RFID</a> custom, qui contient les informations de ton fursona à porter comme un badge classique avec un numéro unique propre à chaque fursona. 
-    Bon, pour le moment en réalité, la version publique permet juste de créer votre compte et vos fursonnas. 
-    Par la même occasion, on a besoin d'un nombre de données conséquent pour bosser sur le système de reconnaissance des fursonas.
-
+    Furry id enfin et pour finir (pour le moment) c'est aussi une mignon petite carte physique <a class=\"urlf\" href=\"https://fr.wikipedia.org/wiki/Radio-identification\">NFC/RFID</a> custom,
+    qui contient les informations de ton fursona à porter comme un badge classique avec un numéro unique propre à chaque fursona.
+    Bon en réalité pour le moment sur la version publique du site vous pouvez juste créé votre compte et vos fursona. On a besoin de plein de donnée pour bosser sur le système de reconnaissance
+    des fursona.
 </p>";
 
-$lang_app_3="Déjà un énorme merci à toutes les personnes qui sont venues pendant l'alpha. Sans vous, il aurait été impossible d'avancer sur le projet alors merci infiniment.
-Pour le travail, par contre, qui vous permet d'avoir aujourd'hui le site que vous visitez, je tiens aussi à remercier personnellement :";
+$lang_app_3="Déjà un enorme merci à tout les personne qui sont venu pendant l'alpha. Sans vous impossible d'avancer sur le projet alors merci infiniement.
+Pour le travail parcontre qui vous permet d'avoir aujourd'hui le site que vous visitez je tien aussi à remercier personalement :";
 $lang_thx = "Remerciement";
 $lang_presentation_projet="Présentation du projet";
 $lang_historic="Historique";
 $lang_sommaire="Sommaire";
 $lang_hiding="masquer";
-$lang_desc_vault="Vault est la mascote de ce site web.";
-$lang_vault_wolf="Loup";
+$lang_desc_vault="Snout est la mascote de ce site web.";
+$lang_vault_wolf="Loup/Linx";
 $lang_especeunique="Espèce";
 $lang_creat="Crée";
 $lang_autor="Auteur";
+
+
 ?>
 
